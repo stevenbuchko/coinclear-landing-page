@@ -8,6 +8,11 @@
     src: url(assets/fonts/AvenirNext-Medium.ttf) format("truetype");
 }
 
+@font-face {
+    font-family: "Avenir Next Light";
+    src: url(assets/fonts/AvenirNext-UltraLight.ttf) format("truetype");
+}
+
 body, html {
     height: 100%;
 }
@@ -45,14 +50,14 @@ body, html {
 }
 
 .name-subtext {
-	font-family: 'Avenir Next Regular', sans-serif;
+	font-family: 'Avenir Next Light', sans-serif;
 	color: white;
 	font-weight: 100;
 	font-size: 34px;
 }
 
 .description {
-	font-family: 'Avenir Next Regular', sans-serif;
+	font-family: 'Avenir Next Light', sans-serif;
 	color: white;
 	font-weight: 100;
 	font-size: 24px;
@@ -62,7 +67,7 @@ body, html {
 #app-name {
 	/*color: #fbec5d;*/
 	color: white;
-	font-family: 'Avenir Next Medium', sans-serif;
+	font-family: 'Avenir Next Regular', sans-serif;
 	font-size: 56px;
 	margin-bottom: 20px;
 }
