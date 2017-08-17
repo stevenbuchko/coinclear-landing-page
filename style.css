@@ -1,10 +1,22 @@
+body, html {
+    height: 100%;
+}
+
 .blue-color {
     background-color: #65A4FD;
 }
 
-.fill {
-    min-height: 100%;
-    height: 100%;
+.bg { 
+    /* The image used */
+    background-image: url(assets/scrim.png);
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .phone-image {
@@ -15,8 +27,6 @@
 
 .left-side h1 {
     color: white;
-    /*font-family: Avenir-Next;*/
-    
 }
 
 .main {
@@ -25,25 +35,25 @@
 }
 
 .name-subtext {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Muli', sans-serif;
 	color: white;
-	font-weight: 300;
-	font-size: 36px;
+	font-weight: 100;
+	font-size: 34px;
 }
 
 .description {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Muli', sans-serif;
 	color: white;
-	font-weight: 300;
-	font-size: 26px;
+	font-weight: 100;
+	font-size: 24px;
 	margin-top: 55px;
 }
 
 #app-name {
 	/*color: #fbec5d;*/
 	color: white;
-	font-family: 'Poppins', sans-serif;
-	font-size: 54px;
+	font-family: 'Muli', sans-serif;
+	font-size: 56px;
 	margin-bottom: 20px;
 }
 
