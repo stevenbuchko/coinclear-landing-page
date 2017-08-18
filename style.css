@@ -32,12 +32,20 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
+
 
 .phone-image {
     padding-top: 40px;
-    padding-left: 200px;
-    padding-bottom: 20px;
+
+    /*padding-left: 200px;
+    padding-bottom: 20px;*/
+    width: 270px;
+    display: block;
+    margin: 0 auto;
+    /*position: static;*/
+    
 }
 
 .left-side h1 {
@@ -47,6 +55,7 @@ body, html {
 .main {
 	margin-left: 100px;
 	margin-top: 100px;
+    padding-right: 60px;
 }
 
 .name-subtext {
