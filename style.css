@@ -26,13 +26,12 @@ body, html {
     background-image: url(assets/scrim.png);
 
     /* Full height */
-    height: 100%; 
+    height: min-height; 
 
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 
@@ -48,8 +47,18 @@ body, html {
     
 }
 
+/*@media screen and (max-width: 1000px) {
+    .bg {
+        background-size: auto 250%;
+    }
+}*/
+
 .left-side h1 {
     color: white;
+}
+
+.main-row {
+    padding-top: 70px;
 }
 
 .main {
@@ -73,11 +82,27 @@ body, html {
 	margin-top: 55px;
 }
 
+.btn-primary {
+    background-color: white;
+    font-family: 'Avenir Next Regular', sans-serif;
+    font-weight: 100;
+    color: #65A4FD;
+    margin: auto;
+}
+
+.sign-up-container {
+    padding-top: 10px;
+    margin: 0 auto;
+    font-family: 'Avenir Next Regular', sans-serif;
+    font-weight: 100;
+}
+
 #app-name {
 	/*color: #fbec5d;*/
 	color: white;
 	font-family: 'Avenir Next Regular', sans-serif;
 	font-size: 56px;
 	margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
