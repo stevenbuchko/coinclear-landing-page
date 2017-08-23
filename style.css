@@ -107,3 +107,16 @@ body, html {
     padding-bottom: 20px;
 }
 
+#phone-image {
+
+    background-image: url(assets/Dashboard_iphone7silver_portrait.png);
+    width: 298px;
+    height: 606px;
+    margin: 0 auto;
+
+}
+
+#phone-image video {
+    margin-top: 71px;
+}
+
