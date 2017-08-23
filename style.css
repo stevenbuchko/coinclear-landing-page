@@ -48,6 +48,17 @@ body, html {
     
 }
 
+.icon-container {
+    margin-left: 10%
+}
+
+#icon-upper-left {
+    padding-top: 30px;
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
 /*@media screen and (max-width: 1000px) {
     .bg {
         background-size: auto 250%;
@@ -59,7 +70,8 @@ body, html {
 }
 
 .main-row {
-    padding-top: 70px;
+    /*padding-top: 70px;*/
+    padding-bottom: 20px;
 }
 
 .main {
