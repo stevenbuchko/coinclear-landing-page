@@ -115,6 +115,8 @@ body, html {
     margin: 0 auto;
     font-family: 'Avenir Next Medium', sans-serif;
     font-weight: 100;
+    display: flex;
+    justify-content: center;
 }
 
 #app-name {
