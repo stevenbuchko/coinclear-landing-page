@@ -119,6 +119,10 @@ body, html {
     justify-content: center;
 }
 
+.validate {
+    width: 100%;
+}
+
 #app-name {
 	/*color: #fbec5d;*/
 	color: white;
@@ -145,4 +149,6 @@ body, html {
 #phone-image video {
     margin-top: 71px;
 }
+
+
 
