@@ -160,6 +160,15 @@ body, html {
   }
 }
 
+#signup-main {
+	background-color: white;
+	color: #65A4FD;
+	margin: 50px 35%;
+	width: 30%;
+}
 
+#signup-main:hover {
+	background-color: #7d7d7d;
+}
 
-
+.section
