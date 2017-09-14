@@ -161,6 +161,21 @@ body, html {
   }
 }
 
+#steps-android-container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#steps-android {
+	background-image: url(assets/Authentication-Android_nexus5x-portrait.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 290px;
+	height: 582px;
+	margin: 0 auto;
+}
+
 #signup-main {
 	background-color: white;
 	color: #65A4FD;
@@ -180,9 +195,8 @@ body, html {
 }
 
 .section-header {
-	display: flex;
-	justify-content: center;
-	width: 100%;
+	text-align: center;
+	width: 80%;
 	color: #65A4FD;
 	font-size: 46px;
 	font-weight: 700;
@@ -190,31 +204,51 @@ body, html {
 }
 
 ol {
-	
+	padding-left: 5%;
 	width: 90%;
+	height: 750px;
 	display: flex;
-	flex-direction: column;
 	justify-content: space-around;
-	height: 720px;
+	flex-direction: column;
+	list-style-type: none;
 }
 
-li {
-	display: block;
-	width: 100%;
-	font-size: 35px;
-	color: white;
-	background-color: #7d7d7d;
-	margin-bottom: 25px;
-	padding: 3px 10px;
-	text-align: center;
+li img {
+	display: inline-block;
+	height: 100px;
+	text-align: right;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+.step {
+	width: 65%;
+	float: left;
+	display: inline-block;
+	font-size: 40px;
+	background-color: white;
+	color: #65A4FD;
 	border-radius: 15px;
-	border: 3px solid #eeeeee;
 }
 
-li:hover {
-	border: 3px solid #65A4FD;
+.step-highlight {
+	width: 65%;
+	float: left;
+	display: inline-block;
+	font-size: 40px;
+	background-color: #65A4FD;
+	color: white;
+	border-radius: 15px;
+	padding: 10px 20px;
 }
 
-.section {
-	margin: 0 10%;
+.step-screen {
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 56px;
+	padding-left: 14px;
+	width: 269px;
+	height: auto;
+	margin: 0 auto;
 }
+
