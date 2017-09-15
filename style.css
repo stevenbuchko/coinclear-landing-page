@@ -183,10 +183,6 @@ body, html {
 	width: 30%;
 }
 
-#signup-main:hover {
-	background-color: #7d7d7d;
-}
-
 #steps-img-container {
 	width: 400px;
 	display: flex;
@@ -194,23 +190,35 @@ body, html {
 	margin: auto;
 }
 
-.section-header {
+.section-header>h1 {
+	width: 70%;
 	text-align: center;
-	width: 80%;
-	color: #65A4FD;
 	font-size: 46px;
+}
+
+.section-header {
+	display: flex;
+	justify-content: center;
+	color: #65A4FD;
 	font-weight: 700;
-	margin: 60px;
+	padding: 60px;
 }
 
 ol {
 	padding-left: 5%;
-	width: 90%;
-	height: 750px;
+	width: 100%;
+	height: 600px;
 	display: flex;
 	justify-content: space-around;
 	flex-direction: column;
 	list-style-type: none;
+}
+
+li {
+	height: 150px;
+	transition: background-color 0.53s;
+	-webkit-transition: background-color 0.53s;
+	-moz-transition: background-color 0.53s;
 }
 
 li > img {
@@ -218,7 +226,7 @@ li > img {
 	height: 100px;
 	text-align: right;
 	margin-left: 50px;
-	margin-top: 20px;
+	margin-top: 25px;
 }
 
 li > div {
@@ -226,29 +234,28 @@ li > div {
 	float: left;
 	display: inline-block;
 	font-size: 36px;
-	background-color: white;
-	color: #65A4FD;
-	border-radius: 15px;
-	padding: 10px 20px;
+/*	background-color: white;
+*/	color: #65A4FD;
+	padding: 18px 20px;
+}
+
+#steps-section {
+	background-color: #f9f9f9;
 }
 
 .step-highlight {
-	/*width: 65%;
-	float: left;
-	display: inline-block;
-	font-size: 36px;*/
-	background-color: #65A4FD;
-	color: white;
-	/*border-radius: 15px;
-	padding: 10px 20px;*/
+	
+	background-color: #D6E7FE;
 }
+
+
 
 .step-screen {
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding-top: 56px;
 	padding-left: 14px;
-	width: 269px;
+	width: 275px;
 	height: auto;
 	margin: 0 auto;
 }
