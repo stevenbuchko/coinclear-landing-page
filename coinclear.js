@@ -21,3 +21,15 @@ for (i = 0; i < steps.length; i++) {
 
 	})
 }
+
+setInterval(function() {
+	if (highStep < 2) {
+		highStep++;
+	} else {
+		highStep = 0;
+	}
+
+	document.querySelector(".step-highlight").classList.remove("step-highlight");
+	steps[highStep].classList.add("step-highlight");
+	droidScreen.src = droidImgs[highStep];
+}, 4000)

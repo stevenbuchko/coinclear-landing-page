@@ -214,7 +214,7 @@ body, html {
 	justify-content: center;
 	color: #65A4FD;
 	font-weight: 700;
-	padding: 60px;
+	padding: 45px;
 }
 
 ol {
@@ -228,7 +228,7 @@ ol {
 }
 
 li {
-	height: 150px;
+	height: 200px;
 	transition: background-color 0.53s;
 	-webkit-transition: background-color 0.53s;
 	-moz-transition: background-color 0.53s;
@@ -238,31 +238,40 @@ li > img {
 	display: inline-block;
 	height: 50px;
 	text-align: right;
-	margin-left: 50px;
-	margin-top: 25px;
+	margin-left: 30px;
+	margin-top: 75px;
 }
 
 li > div {
+    height: 100%;
 	width: 75%;
 	float: left;
-	display: inline-block;
-	font-size: 34px;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     font-family: 'Avenir Next Regular', sans-serif;
 /*	background-color: white;
 */	color: #65A4FD;
 	padding: 18px 20px;
 }
 
+li > h3 {
+    font-size: 30px;
+}
+
+li > p {
+    font-size: 22px;
+}
+
 #steps-section {
 	background-color: #f9f9f9;
+    padding-bottom: 25px;
 }
 
 .step-highlight {
 	
 	background-color: #D6E7FE;
 }
-
-
 
 .step-screen {
 	background-size: cover;
