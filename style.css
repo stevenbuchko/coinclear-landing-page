@@ -73,11 +73,6 @@ body, html {
     justify-content: flex-start;
 }
 
-#name-container-thankyou {
-    display: flex;
-    justify-content: flex-start;
-}
-
 .left-side h1 {
     color: white;
 }
@@ -94,11 +89,27 @@ body, html {
     padding-right: 60px;
 }
 
-.main-thankyou {
+.thankyou {
+    display: flex;
+    justify-content: center;
+}
 
-	position: relative;
-    top: 50%;
-    left: 50%;
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto; 
+    width: 500px;
 }
 
 .name-subtext {
@@ -137,6 +148,10 @@ body, html {
     width: 100%;
 }
 
+.btn-margin-top {
+    margin-top: 30px;
+}
+
 #app-name {
 	/*color: #fbec5d;*/
 	color: white;
@@ -146,6 +161,17 @@ body, html {
     padding-bottom: 20px;
     padding-right: 10px;
     /*width: 300px;*/
+    margin-right: 4px;
+
+    position: relative;
+}
+
+
+#app-name-thankyou {
+	color: white;
+	font-family: 'Avenir Next Regular', sans-serif;
+	font-size: 56px;
+    padding-right: 10px;
     margin-right: 4px;
 
     position: relative;
