@@ -289,6 +289,9 @@ li > p {
     flex-direction: row;
 }
 
-#team > img {
-    
+.team-member > img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height: 200px;
 }
