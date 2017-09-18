@@ -32,4 +32,4 @@ setInterval(function() {
 	document.querySelector(".step-highlight").classList.remove("step-highlight");
 	steps[highStep].classList.add("step-highlight");
 	droidScreen.src = droidImgs[highStep];
-}, 4000)
+}, 4000);
