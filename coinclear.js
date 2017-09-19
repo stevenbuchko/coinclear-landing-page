@@ -15,6 +15,7 @@ for (i = 0; i < steps.length; i++) {
 	steps[i].addEventListener("click", function() {
 		clearInterval(timer);
 		
+		// document.querySelector(".step-highlight").classList.add("last-highlight");
 		document.querySelector(".step-highlight").classList.remove("step-highlight");
 		this.classList.add("step-highlight");
 		highStep = parseInt(this.innerText[0]-1)

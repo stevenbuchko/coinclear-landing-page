@@ -75,13 +75,11 @@ body, html {
     height: inherit;
 }
 
-<<<<<<< HEAD
-=======
 .social-buttons {
     font-size: 18px;
 }
 
->>>>>>> f146503ad5c9a2db343ecc09e1b992a931a0c359
+
 /*.icon-container {
     margin-left: 10%
 }*/
@@ -279,6 +277,9 @@ body, html {
 	width: 290px;
 	height: 582px;
 	margin: 0 auto;
+    transition: opacity .53s ease-in-out;
+    -webkit-transition: opacity .53s ease-in-out;
+    -moz-transition: opacity .53s ease-in-out;
 }
 
 #signup-main {
