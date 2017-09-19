@@ -75,6 +75,13 @@ body, html {
     height: inherit;
 }
 
+<<<<<<< HEAD
+=======
+.social-buttons {
+    font-size: 18px;
+}
+
+>>>>>>> f146503ad5c9a2db343ecc09e1b992a931a0c359
 /*.icon-container {
     margin-left: 10%
 }*/
@@ -396,5 +403,19 @@ li p {
 }
 
 .team-member > h3 {
-    font-family: "Avenir Next Medium";
+    font-family: "Avenir Next Regular";
+    color: #65A4FD;
+    font-size: 28px;
+}
+
+.team-member > h4 {
+    font-family: "Avenir Next Light";
+    color: #65A4FD;
+    font-size: 24px;
+}
+
+.team-member > p {
+    font-family: "Avenir Next Light";
+    color: #65A4FD;
+    font-size: 16px;
 }
