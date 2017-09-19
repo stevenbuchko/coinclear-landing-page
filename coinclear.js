@@ -12,24 +12,30 @@ var droidScreen = document.querySelector(".step-screen");
 var i;
 for (i = 0; i < steps.length; i++) {
 	steps[i].addEventListener("click", function() {
-
+		clearInterval(timer);
+		
 		document.querySelector(".step-highlight").classList.remove("step-highlight");
 		this.classList.add("step-highlight");
 		highStep = parseInt(this.innerText[0]-1)
 		console.log(highStep);
 		droidScreen.src = droidImgs[highStep];
 
+		timer = createTimer();
 	})
 }
 
-setInterval(function() {
-	if (highStep < 2) {
-		highStep++;
-	} else {
-		highStep = 0;
-	}
+window.onload = createTimer();
 
-	document.querySelector(".step-highlight").classList.remove("step-highlight");
-	steps[highStep].classList.add("step-highlight");
-	droidScreen.src = droidImgs[highStep];
-}, 4000);
+function createTimer() {
+	timer = setInterval(function() {
+		if (highStep < 2) {
+			highStep++;
+		} else {
+			highStep = 0;
+		}
+
+		document.querySelector(".step-highlight").classList.remove("step-highlight");
+		steps[highStep].classList.add("step-highlight");
+		droidScreen.src = droidImgs[highStep];
+	}, 5000);
+}

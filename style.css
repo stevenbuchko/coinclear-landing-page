@@ -65,6 +65,16 @@ body, html {
     
 }
 
+.list-inline > li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.social-buttons li {
+    height: inherit;
+}
+
 /*.icon-container {
     margin-left: 10%
 }*/
