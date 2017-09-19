@@ -4,6 +4,7 @@ var steps = document.querySelectorAll("li");
 var highStep = 0;
 var droidImgs = ["assets/CCInfo-Android.png","assets/Portfolio-Android.png","assets/Dashboard-Android.png"];
 var droidScreen = document.querySelector(".step-screen");
+var timer;
 
 // signupMain.addEventListener("click", function(){
 // 	signup.scrollIntoView();
@@ -27,6 +28,7 @@ for (i = 0; i < steps.length; i++) {
 window.onload = createTimer();
 
 function createTimer() {
+	clearInterval(timer)
 	timer = setInterval(function() {
 		if (highStep < 2) {
 			highStep++;
@@ -38,4 +40,5 @@ function createTimer() {
 		steps[highStep].classList.add("step-highlight");
 		droidScreen.src = droidImgs[highStep];
 	}, 5000);
+	return timer
 }
