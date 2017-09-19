@@ -16,6 +16,8 @@
 body, html {
     height: 100%;
     font-family: 'Avenir Next Light', sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .blue-color {
@@ -34,6 +36,20 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.signup-header h1 {
+    color: white;
+}
+
+.signup-form {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.text-center {
+    width: 100%;
+    text-align: center;
 }
 
 
@@ -125,11 +141,25 @@ body, html {
     text-align: center
 }
 
+.signup .btn {
+    margin-bottom: 40px;
+}
+
+.signup .form-group {
+    margin-bottom: 0px;
+}
+
 .description {
 	font-family: 'Avenir Next Light', sans-serif;
 	color: white;
 	font-size: 24px;
 	margin-top: 55px;
+}
+
+.signup-description {
+    font-family: 'Avenir Next Light', sans-serif;
+	color: white;
+	font-size: 24px;
 }
 
 .btn-primary {
@@ -213,6 +243,10 @@ body, html {
     margin-left: 10%;
     padding-right: 0px;
   }
+    
+    .signup-form {
+       width: 75%;
+    }  
 }
 
 #steps-android-container {
@@ -247,8 +281,8 @@ body, html {
 .section-header>h1 {
 	width: 70%;
 	text-align: center;
-	font-size: 45px;
-    font-family: 'Avenir Next Regular', sans-serif;
+	font-size: 38px;
+    font-family: 'Avenir Next Light', sans-serif;
 }
 
 .section-header {
@@ -257,6 +291,10 @@ body, html {
 	color: #65A4FD;
 	font-weight: 700;
 	padding: 45px;
+}
+
+.signup-section {
+    
 }
 
 ol {
@@ -297,12 +335,14 @@ li > div {
 	padding: 18px 20px;
 }
 
-li > h3 {
-    font-size: 30px;
+li h3 {
+    font-size: 34px;
+    font-family: 'Avenir Next Regular', sans-serif;
 }
 
-li > p {
-    font-size: 22px;
+li p {
+    font-size: 24px;
+    font-family: 'Avenir Next Light', sans-serif;
 }
 
 #steps-section {
