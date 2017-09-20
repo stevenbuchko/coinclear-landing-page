@@ -253,15 +253,16 @@ body, html {
 
 @media screen and (max-device-width : 400px)
 {
-  .main {
-    margin-right: 10%;
-    margin-left: 10%;
-    padding-right: 0px;
-  }
+    .main {
+      margin-right: 10%;
+      margin-left: 10%;
+      padding-right: 0px;
+    }
     
     .signup-form {
        width: 75%;
-    }  
+    }
+
 }
 
 #steps-android-container {
@@ -277,9 +278,9 @@ body, html {
 	width: 290px;
 	height: 582px;
 	margin: 0 auto;
-    transition: opacity .53s ease-in-out;
+    /*transition: opacity .53s ease-in-out;
     -webkit-transition: opacity .53s ease-in-out;
-    -moz-transition: opacity .53s ease-in-out;
+    -moz-transition: opacity .53s ease-in-out;*/
 }
 
 #signup-main {
@@ -316,17 +317,20 @@ body, html {
 }
 
 ol {
+    min-height: 600px;
 	padding-left: 5%;
+    margin-top: 20px;
 	width: 100%;
-	height: 600px;
+	/*height: 600px;*/
 	display: flex;
-	justify-content: space-around;
+	justify-content: flex-start;
 	flex-direction: column;
 	list-style-type: none;
 }
 
 li {
-	height: 200px;
+	min-height: 200px;
+    /*padding: 50px auto;*/
 	transition: background-color 0.53s;
 	-webkit-transition: background-color 0.53s;
 	-moz-transition: background-color 0.53s;
