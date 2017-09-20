@@ -328,8 +328,9 @@ ol {
 	list-style-type: none;
 }
 
-li {
+ol li {
 	min-height: 200px;
+    cursor: pointer;
     /*padding: 50px auto;*/
 	transition: background-color 0.53s;
 	-webkit-transition: background-color 0.53s;
@@ -346,7 +347,7 @@ li > img {
 
 li > div {
     height: 100%;
-	width: 75%;
+	width: 72%;
 	float: left;
 	display: flex;
     flex-direction: column;
@@ -355,6 +356,7 @@ li > div {
 /*	background-color: white;
 */	color: #65A4FD;
 	padding: 18px 20px;
+    vertical-align: middle;
 }
 
 li h3 {
@@ -371,6 +373,7 @@ li p {
 	background-color: #f9f9f9;
     padding-bottom: 25px;
 }
+
 
 .step-highlight {
 	

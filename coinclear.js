@@ -10,6 +10,21 @@ var timer;
 // 	signup.scrollIntoView();
 // });
 
+
+// function cycleImages(){
+//     var images = $('#steps-android img'),
+//         now    = images.filter(':visible'),
+//         next   = now.next().length ? now.next() : images.first(),
+//         speed  = 700;
+
+//     now.fadeOut(speed);
+//     next.fadeIn(speed);
+// }
+
+// $(function() {
+//     setInterval(cycleImages, 4000);
+// });
+
 var i;
 for (i = 0; i < steps.length; i++) {
 	steps[i].addEventListener("click", function() {
@@ -40,6 +55,6 @@ function createTimer() {
 		document.querySelector(".step-highlight").classList.remove("step-highlight");
 		steps[highStep].classList.add("step-highlight");
 		droidScreen.src = droidImgs[highStep];
-	}, 5000);
+	}, 7000);
 	return timer
 }
