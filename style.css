@@ -251,22 +251,6 @@ body, html {
     margin-top: 71px;
 }
 
-@media screen and (max-device-width : 400px)
-{
-    .main {
-      margin-right: 10%;
-      margin-left: 10%;
-      padding-right: 0px;
-    }
-    
-    .signup-form {
-       width: 75%;
-    }
-
-    .section-header>h1 {
-    	width: 95%;
-    }
-}
 
 #steps-android-container {
 	display: flex;
@@ -300,11 +284,28 @@ body, html {
 	margin: auto;
 }
 
-.section-header>h1 {
+.section-header h1 {
 	width: 60%;
 	text-align: center;
 	font-size: 38px;
     font-family: 'Avenir Next Light', sans-serif;
+}
+
+@media screen and (max-device-width : 400px)
+{
+    .main {
+      margin-right: 10%;
+      margin-left: 10%;
+      padding-right: 0px;
+    }
+    
+    .signup-form {
+       width: 75%;
+    }
+
+    .section-header h1 {
+    	width: 95%;
+    }
 }
 
 .section-header {
@@ -312,12 +313,14 @@ body, html {
 	justify-content: center;
 	color: #65A4FD;
 	font-weight: 700;
-	padding: 25px;
+	padding: 50px;
 }
 
-.signup-section {
-    
+.team {
+    padding-bottom: 30px
 }
+
+
 
 ol {
     min-height: 510px;
@@ -349,7 +352,7 @@ li > img {
 }
 
 li > div {
-	min-height: 170px;
+	min-height: 200px;
     height: 100%;
 	width: 72%;
 	float: left;

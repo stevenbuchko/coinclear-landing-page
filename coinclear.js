@@ -55,6 +55,6 @@ function createTimer() {
 		document.querySelector(".step-highlight").classList.remove("step-highlight");
 		steps[highStep].classList.add("step-highlight");
 		droidScreen.src = droidImgs[highStep];
-	}, 7000);
+	}, 5000);
 	return timer
 }
