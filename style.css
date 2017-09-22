@@ -314,6 +314,7 @@ body, html {
 	color: #65A4FD;
 	font-weight: 700;
 	padding: 50px;
+    text-align: center;
 }
 
 .team {
@@ -367,12 +368,12 @@ li > div {
 }
 
 li h3 {
-    font-size: 30px;
+    font-size: 26px;
     font-family: 'Avenir Next Regular', sans-serif;
 }
 
 li p {
-    font-size: 24px;
+    font-size: 26px;
     font-family: 'Avenir Next Light', sans-serif;
 }
 
@@ -420,7 +421,7 @@ li p {
 .team-member > h3 {
     font-family: "Avenir Next Regular";
     color: #65A4FD;
-    font-size: 28px;
+    font-size: 26px;
 }
 
 .team-member > h4 {
@@ -433,4 +434,8 @@ li p {
     font-family: "Avenir Next Light";
     color: #65A4FD;
     font-size: 16px;
+}
+
+.white-text {
+    color: white;
 }
